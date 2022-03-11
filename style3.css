@@ -1,0 +1,46 @@
+
+ 
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+
+.box-one{
+   
+  background-color: rebeccapurple;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    
+  }
+
+  .box-two {
+    background-color: violet ;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+
+  }
+
+
+  .box-three {
+    background-color: blueviolet;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+
+
+  } 
+
+
+/* Clear floats after the columns */
+  .box-col:after {
+    display: table;
+    clear: both;
+    
+  }  
